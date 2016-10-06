@@ -1,0 +1,6 @@
+﻿namespace CreactPager
+{
+	class textActivity
+	{
+	}
+}

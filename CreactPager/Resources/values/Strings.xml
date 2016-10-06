@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="spiner_names">
+	 и  </string>
+    <string-array name="namess_array">
+        <item>Very Small</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+	<string name="app_name">myapp</string>
+</resources>

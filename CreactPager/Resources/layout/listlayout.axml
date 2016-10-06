@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1">
+    <RelativeLayout
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/relativeLayout2">
+        <TextView
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Text1"
+            p1:textColor="#ff201010"
+            p1:textSize="20dp"
+            p1:layout_centerVertical="true"
+            p1:layout_marginLeft="70dp" />
+        <ImageButton
+            p1:src="@drawable/delete"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/imagebut"
+            p1:background="#01ffffff"
+            p1:scrollbars="vertical"
+            p1:scrollbarStyle="insideOverlay"
+            p1:overScrollMode="always"
+            p1:tint="#ffff0000"
+            p1:layout_margin="5dp"
+            p1:layout_centerVertical="false"
+            p1:layout_centerHorizontal="true"
+            p1:maxHeight="40dp"
+            p1:scaleType="fitCenter"
+            p1:adjustViewBounds="true"
+            p1:layout_alignParentRight="true"
+            p1:paddingBottom="5dp" />
+        <ImageButton
+            p1:src="@drawable/star"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/imageButton1"
+            p1:background="#02ffffff"
+            p1:layout_marginEnd="5dp"
+            p1:layout_marginRight="70dp"
+            p1:baselineAlignBottom="false"
+            p1:adjustViewBounds="true"
+            p1:layout_centerVertical="true"
+            p1:layout_alignParentRight="true"
+            p1:tint="#ffff2929"
+            p1:alpha="0.3" />
+        <ImageView
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/DrinkImage"
+            p1:tint="#ff0b00d9"
+            p1:maxHeight="50dp"
+            p1:adjustViewBounds="true"
+            p1:scaleType="fitStart"
+            p1:src="@drawable/beerbig"
+            p1:padding="5dp"
+            p1:layout_centerVertical="true"
+            p1:layout_alignParentLeft="true" />
+    </RelativeLayout>
+</RelativeLayout>
